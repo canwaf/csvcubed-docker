@@ -28,7 +28,7 @@ jobs:
             image: gsscogs/databaker:test
             options: -v ${{ github.workspace }}:/workspace
             run: |
-              for D in /workspace; do
+              for D in /workspace/; do
                 if [ -d "${D}" ]; then
                     cd /workspace/"${D}"   # your processing here
                     infojson2csvqb build observation.csv -c info.json -m catalog-metadata.json
