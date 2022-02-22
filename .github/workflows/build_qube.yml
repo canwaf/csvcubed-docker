@@ -25,13 +25,8 @@ jobs:
           with:
             image: gsscogs/databaker:test
             options: -v ${{ github.workspace }}:/workspace
-            - name: Set up git
-              run: |
-                git config user.email none@none.na
-                git config user.name "Autobuild"
-            - name: Generate csv-ws
-              run: |
-                sh build.sh
-            - name: commit changes
-              run: |
-                git push origin
+            run: |
+              git config user.email none@none.na
+              git config user.name "Autobuild"
+              sh build.sh
+              git push origin
