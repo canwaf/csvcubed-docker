@@ -31,7 +31,7 @@ jobs:
               for D in /workspace; do
                 if [ -d "${D}" ]; then
                     cd "${D}"   # your processing here
-                    infojson2csvqb observation.csv -c info.json -m catalog-metadata.json
+                    infojson2csvqb build observation.csv -c info.json -m catalog-metadata.json
                     cd ..
                 fi
               done
