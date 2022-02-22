@@ -7,7 +7,7 @@ for d in `ls` ; do
     if [ -d $d ] ; then
         echo "Found csvcubed target in ./$d/"
         if [ -d $d/out ] ; then
-            echo "Found out folder, skipping. Delete the folder if you want to rebuild."
+            echo "Found out folder, skipping. Delete the folder if you want to rebuild. Rob hates this."
         else
             cd $d
             infojson2csvqb build observations.csv -c info.json -m catalog-metadata.json
