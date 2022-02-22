@@ -1,0 +1,20 @@
+{
+    "title": "Sweden at Eurovision",
+    "identifier": null,
+    "summary": null,
+    "description": "",
+    "creator_uri": "https://www.gov.uk/government/organisations/six-on-stage",
+    "publisher_uri": "https://www.gov.uk/government/organisations/six-on-stage",
+    "landing_page_uris": [
+        "https://www.sixonstage.com/"
+    ],
+    "theme_uris": [
+        "http://gss-data.org.uk/def/gdp#eurovision"
+    ],
+    "keywords": [],
+    "dataset_issued": "2021-10-13",
+    "dataset_modified": "2022-02-14T13:21:41.865934+00:00",
+    "license_uri": null,
+    "public_contact_point_uri": null,
+    "uri_safe_identifier_override": null
+}
