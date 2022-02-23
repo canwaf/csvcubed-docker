@@ -1,0 +1,20 @@
+{
+    "title": "Alcohol Bulletin",
+    "identifier": null,
+    "summary": "Quarterly statistics from the 4 different alcohol duty regimes administered by HM Revenue and Customs.",
+    "description": "The Alcohol Bulletin National Statistics present statistics from the 4\ndifferent alcohol duties administered by HM Revenue and Customs (HMRC): [Wine\nDuty](https://www.gov.uk/government/collections/wine-duty) (wine and made-\nwine), [Spirits Duty](https://www.gov.uk/guidance/spirits-duty), [Beer\nDuty](https://www.gov.uk/guidance/beer-duty) and [Cider\nDuty](https://www.gov.uk/government/collections/cider-duty).\n\nThe Alcohol Bulletin is updated quarterly and includes statistics on duty\nreceipts up to the latest full month before its release, and statistics\nrelating to clearances and production that are one month behind that of duty\nreceipts.\n\n[Archive versions of the Alcohol Bulletin published on GOV.UK after August\n2019](https://webarchive.nationalarchives.gov.uk/ukgwa/*/https://www.gov.uk/government/statistics/alcohol-\nbulletin) are no longer hosted on this page and are instead available via the\nUK Government Web Archive, from the National Archives.\n\n[Archive versions of the Alcohol Bulletin published between 2008 and August\n2019](https://www.uktradeinfo.com/trade-data/tax-and-duty-bulletins/) are\nfound on the UK Trade Info website.\n\n## Quality report\n\nFurther details for this statistical release, including data suitability and\ncoverage, are included within the [Alcohol Bulletin quality\nreport](https://www.gov.uk/government/statistics/quality-report-alcohol-\nduties-publications-bulletin-and-factsheet).\n\n  *[HMRC]: HM Revenue and Customs\n  *[UK]: United Kingdom\n\n",
+    "creator_uri": "https://www.gov.uk/government/organisations/hm-revenue-customs",
+    "publisher_uri": "https://www.gov.uk/government/organisations/hm-revenue-customs",
+    "landing_page_uris": [
+        "https://www.gov.uk/government/statistics/alcohol-bulletin"
+    ],
+    "theme_uris": [
+        "http://gss-data.org.uk/def/gdp#trade"
+    ],
+    "keywords": [],
+    "dataset_issued": "2016-02-26T09:30:00+00:00",
+    "dataset_modified": "2022-02-11T15:29:02.614262+00:00",
+    "license_uri": null,
+    "public_contact_point_uri": null,
+    "uri_safe_identifier_override": null
+}
