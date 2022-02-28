@@ -1,0 +1,43 @@
+{
+    "$schema": "https://raw.githubusercontent.com/GSS-Cogs/csvcubed/main/csvcubed/csvcubed/schema/cube-config-schema.jsonc",
+    "title": "Sweden at Eurovision",
+    "id": "sweden-at-eurovision",
+    "description": "Sweden has participated in the Eurovision Song Contest for many years, this is a summary of their participation",
+    "published": "2021-10-13",
+    "landingPage": "https://www.sixonstage.com/",
+    "publisher": "Six on stage",
+    "families": [
+        "eurovision"
+    ],
+    "columns": {
+        "Year": {
+            "type": "dimension",
+            "new": {
+                "subPropertyOf": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod",
+                "codelist": false
+            },
+            "value": "https://reference.data.gov.uk/id/year/{+year}"
+        },
+        "Entrant": {
+            "type": "dimension"
+        },
+        "Song": {
+            "type": "attribute"
+        },
+        "Language": {
+            "type": "attribute"
+        },
+        "Marker": {
+            "type": "attribute"
+        },
+        "Measure": {
+            "type": "measures"
+        },
+        "Observation": {
+            "type": "observations"
+        },
+        "Units": {
+            "type": "units"
+        }
+    }
+}
