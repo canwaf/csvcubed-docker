@@ -19,7 +19,7 @@
             "value": "https://reference.data.gov.uk/id/year/{+year}"
         },
         "Entrant": {
-            "type": "dimension"
+            "type": "attribute"
         },
         "Song": {
             "type": "attribute"
@@ -28,7 +28,9 @@
             "type": "attribute"
         },
         "Marker": {
-            "type": "attribute"
+            "type": "attribute",
+            "label": "Marker",
+            "from_existing": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
         },
         "Measure": {
             "type": "measures"

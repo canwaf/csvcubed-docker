@@ -30,7 +30,12 @@
             },            
             "Marker": {
                 "type": "attribute",
-                "subPropertyOf": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
+                "new": {
+                    "label": "Marker",
+                    "comment": "Comments on the observation status.",
+                    "subPropertyOf": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus",
+                    "newAttributeValues": true
+                }
             },
             "Measure": {
                 "type": "measures"
