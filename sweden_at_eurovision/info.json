@@ -41,7 +41,8 @@
                 "type": "measures"
             },
             "Observation": {
-                "type": "observations"
+                "type": "observations",
+                "datatype": "int"
             },
             "Units": {
                 "type": "units"
